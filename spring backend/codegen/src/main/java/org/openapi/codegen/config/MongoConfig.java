@@ -8,7 +8,7 @@ import org.springframework.data.mongodb.repository.config.EnableMongoRepositorie
 import java.util.Arrays;
 
 @Configuration
-@EnableMongoRepositories(basePackages = "com.openapi.codegen.repository")
+@EnableMongoRepositories(basePackages = "org.openapi.codegen.repository")
 public class MongoConfig extends AbstractMongoClientConfiguration {
 
     @Override
