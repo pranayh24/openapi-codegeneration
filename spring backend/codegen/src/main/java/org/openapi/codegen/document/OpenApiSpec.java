@@ -27,6 +27,9 @@ public class OpenApiSpec extends BaseDocument {
     @Field("original_filename")
     private String originalFilename;
 
+    @Field("file_size")
+    private Long fileSize;
+
     @Field("content_type")
     private String contentType;
 
