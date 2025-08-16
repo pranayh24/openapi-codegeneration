@@ -68,6 +68,6 @@ public class OpenApiSpecService {
     }
 
     private void extractDetailedMetadata(OpenApiSpec spec, OpenAPI openAPI) {
-        
+
     }
 }
